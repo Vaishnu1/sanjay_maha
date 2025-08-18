@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+    body {
+        font-family: 'Special Gothic Expanded One', sans-serif; /* Fallback font included */
+    }
+
+    h1 {
+        font-family: 'Old English Text MT', serif; /* Example for a different element */
+    }
