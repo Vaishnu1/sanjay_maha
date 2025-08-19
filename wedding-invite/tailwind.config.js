@@ -2,24 +2,25 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,jsx,ts,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
       colors: {
-        'background': '#F9F5F0', // Soft off-white
-        'text': '#4E3A28',       // Rich brown
-        'primary': '#D4AF37',    // Gold accent
-        'secondary': '#A87C7C',  // Muted rose
-        'accent': '#8B4513',     // Darker brown
+        'background': '#FFF8F0', // A soft off-white
+        'primary': '#4A5C6A',    // A deep slate blue
+        'secondary': '#D4B499',   // A warm tan
+        'accent': '#A46C6C',     // A muted rose
       },
       fontFamily: {
-        'serif': ['"Playfair Display"', 'serif'],
         'sans': ['"Poppins"', 'sans-serif'],
+        'serif': ['"Playfair Display"', 'serif'],
       },
       backgroundImage: {
-        'hero-bg': "url('/bg.JPG')",
-      },
+        // --- THIS IS THE IMPORTANT PART ---
+        // It connects the name 'hero-bg' to your actual image file.
+        'hero-bg': "url('/header-background.jpg')",
+      }
     },
   },
   plugins: [],

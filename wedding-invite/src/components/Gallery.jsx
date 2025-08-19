@@ -1,12 +1,12 @@
 import { motion } from 'framer-motion';
 
 const galleryImages = [
-  'gallery1.JPG',
-  'gallery2.JPG',
-  'gallery3.JPG',
-  'gallery4.JPG',
-  'gallery5.JPG',
-  'gallery6.JPG',
+  'gallery1.jpg',
+  'gallery2.jpg',
+  'gallery3.jpg',
+  'gallery4.jpg',
+  'gallery5.jpg',
+  'gallery6.jpg',
 ];
 
 const Gallery = () => {
